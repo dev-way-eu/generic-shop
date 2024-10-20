@@ -11,12 +11,9 @@
       "email": "matthieu@dev-way.eu"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dev-way-eu/generic-shop.git"
-    }
-  ],
+  "require": {
+    "php": ">=8.2"
+  },
   "autoload": {
     "psr-4": { "Devway\\GenericShop\\": "src/" }
   },
