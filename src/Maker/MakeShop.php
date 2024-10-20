@@ -16,23 +16,23 @@ final class MakeShop extends AbstractMaker
     private array $shopClasses = [
         'entities' => [
             'Category',
-            'Product',
+            'BaseProduct',
             'UnitOfMeasure',
-            'Attribute',
-            'ProductAttribute',
-            'Variant',
-            'Option',
-            'ProductOption'
+            'Property',
+            'BaseProductProperty',
+            'Product',
+            'AdditionnalOption',
+            'ProductAdditionnalOption'
         ],
         'repositories' => [
             'CategoryRepository',
-            'ProductRepository',
+            'BaseProductRepository',
             'UnitOfMeasureRepository',
-            'AttributeRepository',
-            'ProductAttributeRepository',
-            'VariantRepository',
-            'OptionRepository',
-            'ProductOptionRepository'
+            'PropertyRepository',
+            'BaseProductPropertyRepository',
+            'ProductRepository',
+            'AdditionnalOptionRepository',
+            'ProductAdditionnalOptionRepository'
         ],
         'controllers' => [
             'ShopController'
