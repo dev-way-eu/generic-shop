@@ -5,3 +5,5 @@ services:
     autowire: true
     autoconfigure: true
   Devway\GenericShop: ~
+  Devway\GenericShop\Maker\MakeShop:
+    tags: [ maker.command ]
