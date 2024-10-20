@@ -1,7 +1,7 @@
 parameters:
 
 services:
-  _defaultS:
+  _defaults:
     autowire: true
     autoconfigure: true
   Devway\GenericShop: ~
